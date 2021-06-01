@@ -166,7 +166,3 @@ arr.push(1, 2, 3);
 for (const item of arr) {
   console.log("item :>> ", item);
 }
-
-for (const keys of arr.keys()) {
-  console.log("keys :>> ", keys);
-}
