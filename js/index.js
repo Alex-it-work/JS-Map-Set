@@ -9,6 +9,10 @@ const lettersMap = new Map();
 for (let i = 0; i < arrKeys.length; i++) {
   lettersMap.set(arrKeys[i], arrValues[i]);
 }
+// или
+// const arrFirst = ["A", "a"];
+// const arrSecond = ["B", "b"];
+// const lettersMap = new Map([arrFirst,arrSecond]);
 
 // Получите список ключей и значений отдельно.
 
